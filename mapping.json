@@ -254,6 +254,11 @@
                 "power": [
                     "switchgear",
                     "plant"
+                ],
+                "boundary": [
+                    "national_park",
+                    "postal_code",
+                    "protected_area"
                 ]
             }
         },
@@ -685,6 +690,9 @@
                 ],
                 "highway": [
                     "__any__"
+                ],
+                "boundary": [
+                    "country_border"
                 ]
             }
         },
