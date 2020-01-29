@@ -1,0 +1,57 @@
+{
+    "areas": {
+        "area_tags": [
+            "building",
+            "landuse",
+            "leisure",
+            "natural",
+            "aeroway"
+        ],
+        "linear_tags": [
+            "highway",
+            "barrier"
+        ]
+    },
+
+    
+    "tables": {
+      "aeroways": {
+          "columns": [
+              {
+                  "type": "id",
+                  "name": "osm_id",
+                  "key": null
+              },
+              {
+                  "type": "geometry",
+                  "name": "geometry",
+                  "key": null
+              },
+              {
+                  "type": "string",
+                  "name": "name",
+                  "key": "name"
+              },
+              {
+                  "type": "mapping_value",
+                  "name": "type",
+                  "key": null
+              },
+              {
+
+                "type": "hstore_tags",
+                "name": "tags",
+                "key": null
+              }
+          ],
+          "type": "linestring",
+          "mapping": {
+              "aeroway": [
+                  "runway",
+                  "taxiway"
+              ]
+          }
+      }
+
+}
+}
